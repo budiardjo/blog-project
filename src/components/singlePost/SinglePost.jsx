@@ -2,7 +2,7 @@ import "./singlePost.css"
 
 export default function SinglePost() {
     return (
-        <div clasName="singlePost">
+        <div className="singlePost">
             single post
             
         </div>
