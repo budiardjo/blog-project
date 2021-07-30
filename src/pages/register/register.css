@@ -1,58 +1,56 @@
 .register {
-    height: calc(100vh - 50px);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(
-        rgba(255,255,255,0.5),
-        rgba(255,255,255,0.5)
-        ),
-        url("https://ik.imagekit.io/fndn595ujcn/ryan-klaus-zNY7KPyQn9M-unsplash__1__rgXe120GZ.jpg?updatedAt=1627618273622");
-        
-        
+	height: calc(100vh - 50px);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(
+			rgba(255, 255, 255, 0.5),
+			rgba(255, 255, 255, 0.5)
+		),
+		url("https://ik.imagekit.io/fndn595ujcn/casey-horner-ur8qR8YG6po-unsplash_RxrXDv9Ge.jpg?updatedAt=1627619900678");
 
-    background-size: cover;
+	background-size: cover;
 }
 
 .registerTitle {
-    font-size: 50px;
+	font-size: 50px;
 }
 
-.registerForm{
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
+.registerForm {
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
 }
 
 .registerForm > label {
-    margin: 10px;
+	margin: 10px;
 }
 
 .registerInput {
-    padding: 10px;
-    background-color: white;
-    border: none;
+	padding: 10px;
+	background-color: white;
+	border: none;
 }
 
 .registerButton {
-    margin-top: 20px;
-    cursor: pointer;
-    background-color: teal;
-    border: none;
-    color: white;
-    border-radius: 10px;
-    padding: 10px;
+	margin-top: 20px;
+	cursor: pointer;
+	background-color: teal;
+	border: none;
+	color: white;
+	border-radius: 10px;
+	padding: 10px;
 }
 
 .registerLoginButton {
-    position: absolute;
-    top: 60px;
-    right: 20px;
-    background-color: lightcoral;
-    cursor: pointer;
-    border: none;
-    padding: 10px;
-    color: white;
-    border-radius: 10px;
+	position: absolute;
+	top: 60px;
+	right: 20px;
+	background-color: lightcoral;
+	cursor: pointer;
+	border: none;
+	padding: 10px;
+	color: white;
+	border-radius: 10px;
 }
