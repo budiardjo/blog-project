@@ -1,0 +1,15 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: linear-gradient(
+        rgba(255,255,255,0.5),
+        rgba(255,255,255,0.5)
+        ),
+        url("https://ik.imagekit.io/fndn595ujcn/ryan-klaus-zNY7KPyQn9M-unsplash__1__rgXe120GZ.jpg?updatedAt=1627618273622");
+        
+        
+
+    background-size: cover;
+}
